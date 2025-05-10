@@ -1,0 +1,29 @@
+
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #34495e;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .topbar-left h1 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .logout-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    width: auto;
+  }
+  
+  .logout-button:hover {
+    background-color: #c0392b;
+  }
